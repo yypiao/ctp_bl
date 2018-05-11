@@ -3,8 +3,6 @@ project(ctp_bl)
 
 set(CMAKE_CXX_STANDARD 11)
 
-#set(INC_DIR D:/codeWorkSpaceC/ctp_bl/include)
-#set(LINK_DIR D:/codeWorkSpaceC/ctp_bl/lib)
 set(INC_DIR ${PROJECT_SOURCE_DIR}/include)
 set(LINK_DIR ${PROJECT_SOURCE_DIR}/lib)
 
@@ -16,7 +14,7 @@ link_directories(${LINK_DIR})
 
 #FIND_LIBRARY(RUNTIME_LIB rt /usr/lib /usr/local/lib NO_DEFAULT_PATH)
 
-link_libraries("D:/codeWorkSpaceC/ctp_bl/lib/thostmduserapi.lib" "D:/codeWorkSpaceC/ctp_bl/lib/thosttraderapi.lib")
+#link_libraries("D:/codeWorkSpaceC/ctp_bl/lib/thostmduserapi.lib" "D:/codeWorkSpaceC/ctp_bl/lib/thosttraderapi.lib")
 #target_link_libraries(${PROJECT_NAME} mybl)
 
 
